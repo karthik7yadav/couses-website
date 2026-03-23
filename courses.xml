@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="web">
+        <title>Web Development</title>
+        <instructor>John</instructor>
+        <price>2000</price>
+        <rating>5</rating>
+        <duration>3 Months</duration>
+        <description>Learn HTML, CSS, JavaScript</description>
+        <image>web.jpg</image>
+    </course>
+
+    <course id="python">
+        <title>Python Programming</title>
+        <instructor>Smith</instructor>
+        <price>1500</price>
+        <rating>4</rating>
+        <duration>2 Months</duration>
+        <description>Learn Python from basics</description>
+        <image>python.jpg</image>
+    </course>
+</courses>
