@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>LearnHub</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="login.html">Register/Login</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Upgrade Your Skills Anytime, Anywhere</h2>
+    <p>Join thousands of learners and boost your career</p>
+    <button onclick="location.href='courses.html'">Explore Courses</button>
+</section>
+
+<section class="container">
+    <h2>Why Choose Us?</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>📚 Expert Instructors</h3>
+            <p>Learn from industry professionals with real-world experience.</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Flexible Learning</h3>
+            <p>Study at your own pace from anywhere in the world.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏆 Certification</h3>
+            <p>Earn certificates to showcase your skills.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Popular Courses</h2>
+
+    <div class="grid">
+        <div class="card">
+    <img src="web.jpg" class="course-img">
+    <h3>Web Development</h3>
+    <p><b>Instructor:</b> John</p>
+    <p><b>Price:</b> ₹2000</p>
+    <p class="stars">★★★★★</p>
+    <button onclick="viewCourse('web')">View Details</button>
+</div>
+
+<div class="card">
+    <img src="python.jpg" class="course-img">
+    <h3>Python Programming</h3>
+    <p><b>Instructor:</b> Smith</p>
+    <p><b>Price:</b> ₹1500</p>
+    <p class="stars">★★★★☆</p>
+    <button onclick="viewCourse('python')">View Details</button>
+</div>
+    </div>
+</section>
+
+<section class="banner" style="padding:50px;">
+    <h2>Start Learning Today</h2>
+    <button onclick="location.href='login.html'">Register Now</button>
+</section>
+
+<footer>
+    <p>© 2026 LearnHub | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
